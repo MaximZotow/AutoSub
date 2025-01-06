@@ -8,6 +8,7 @@ ARG DEPSLIST=requirements.txt
 
 ENV PYTHONUNBUFFERED 1
 
+COPY *.tflite ./
 COPY *.pbmm ./
 COPY *.scorer ./
 COPY setup.py ./
